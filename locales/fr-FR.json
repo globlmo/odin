@@ -20,17 +20,17 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Allez vers l'est.", "Allez vers le nord."],
-        "1": ["Allez vers le sud-est sur la 5th Avenue.", "Allez vers l'ouest sur l'allée", "Allez vers l'est sur la piste cyclable", "Allez vers le nord sur la piste de vélo de montagne"],
-        "2": ["Allez vers le sud sur North Prince Street/US 222/PA 272. Continuez sur US 222/PA 272."],
+        "1": ["Allez vers le sud-est sur la rue des sablons.", "Allez vers l'ouest sur l'allée", "Allez vers l'est sur la piste cyclable", "Allez vers le nord sur la piste de vélo de montagne"],
+        "2": ["Allez vers le sud sur route de saint-leu/N 328. Continuez sur N 328."],
         "4": ["Conduisez vers l'est.", "Conduisez vers le nord."],
-        "5": ["Conduisez vers le sud-est sur 5th Avenue."],
-        "6": ["Conduisez vers le sud sur North Prince Street/US 222/PA 272. Continuez sur US 222/PA 272."],
+        "5": ["Conduisez vers le sud-est sur la rue des sablons."],
+        "6": ["Conduisez vers le sud sur route de saint-leu/N 328. Continuez sur N 328."],
         "8": ["Marchez vers l'est.", "Marchez vers le nord."],
-        "9": ["Marchez vers le sud-est sur 5th Avenue.", "Marchez vers l'ouest sur l'allée"],
-        "10": ["Marchez vers le sud sur North Prince Street/US 222/PA 272. Continuez sur US 222/PA 272."],
+        "9": ["Marchez vers le sud-est sur rue des sablons.", "Marchez vers l'ouest sur l'allée"],
+        "10": ["Marchez vers le sud sur route de saint-leu/N 328. Continuez sur N 328."],
         "16": ["Pédalez vers l'est.", "Pédalez vers le nord."],
-        "17": ["Pédalez vers le sud-est sur 5th Avenue.", "Pédalez vers l'est sur la piste cyclable", "Pédalez vers le nord sur la piste de vélo de montagne"],
-        "18": ["Pédalez vers le sud sur North Prince Street/US 222/PA 272. Continuez sur US 222/PA 272."]
+        "17": ["Pédalez vers le sud-est sur rue des sablons.", "Pédalez vers l'est sur la piste cyclable", "Pédalez vers le nord sur la piste de vélo de montagne"],
+        "18": ["Pédalez vers le sud sur route de saint-leu/N 328. Continuez sur N 328."]
       }
     },
     "start_verbal": {
@@ -50,21 +50,21 @@
       },
       "cardinal_directions": ["le nord", "le nord-est", "l'est", "le sud-est", "le sud", "le sud-est", "l'ouest", "le nord-ouest"],
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
-      "metric_lengths": ["<KILOMETERS> kilomètres", "1 kilometre", "un demi kilometre", "<METERS> mètres", "moins de 10 mètres"],
+      "metric_lengths": ["<KILOMETERS> kilomètres", "1 kilometre", "un demi kilomètre", "<METERS> mètres", "moins de 10 mètres"],
       "us_customary_lengths": ["<MILES> miles", "1 mile", "un demi mile", "<TENTHS_OF_MILE> dixièmes de mile", "1 dixième de mile", "<FEET> pieds", "moins de 10 pieds"],
       "example_phrases": {
-        "0": ["Allez vers l'est pendant un demi mile.", "Allez vers le nord pendant 1 kilometre."],
-        "1": ["Allez vers le sud-est sur 5th Avenue pendant 1 dixième de mile."],
-        "2": ["Allez vers le sud sur North Prince Street, U.S. 2 22."],
-        "4": ["Conduisez vers l'est pendant un demi mile.", "Conduisez vers le nord pendant 1 kilometre."],
-        "5": ["Conduisez vers le sud-est sur 5th Avenue pendant 1 dixième de mile."],
-        "6": ["Conduisez vers le sud sur North Prince Street, U.S. 2 22."],
-        "8": ["Marchez vers l'est pendant un demi mile.", "Marchez vers le nord pendant 1 kilometre."],
-        "9": ["Marchez vers le sud-est sur 5th Avenue pendant 1 dixième de mile."],
-        "10": ["Marchez vers le sud sur North Prince Street, U.S. 2 22."],
+        "0": ["Allez vers l'est pendant un demi kilomètre.", "Allez vers le nord pendant 1 kilometre."],
+        "1": ["Allez vers le sud-est sur rue des sablons pendant 100 mètres."],
+        "2": ["Allez vers le sud sur route de saint-leu, N 328."],
+        "4": ["Conduisez vers l'est pendant un demi kiloètres.", "Conduisez vers le nord pendant 1 kilometre."],
+        "5": ["Conduisez vers le sud-est sur rue des sablons pendant 100 mètres."],
+        "6": ["Conduisez vers le sud sur route de saint-leu, N 328."],
+        "8": ["Marchez vers l'est pendant un demi kilomètre.", "Marchez vers le nord pendant 1 kilometre."],
+        "9": ["Marchez vers le sud-est sur rue des sablons pendant 1 dixième de mile."],
+        "10": ["Marchez vers le sud sur route de saint-leu, N 328."],
         "16": ["Pédalez vers l'est pendant un demi mile.", "Pédalez vers le nord pendant 1 kilometre."],
-        "17": ["Pédalez vers le sud-est sur 5th Avenue pendant 1 dixième de mile."],
-        "18": ["Pédalez vers le sud sur North Prince Street, U.S. 2 22."]
+        "17": ["Pédalez vers le sud-est sur rue des sablons pendant 1 dixième de mile."],
+        "18": ["Pédalez vers le sud sur route de saint-leu, N 328."]
       }
     },
     "destination": {
@@ -77,9 +77,9 @@
       "relative_directions": ["gauche", "droite"],
       "example_phrases": {
         "0": ["Vous êtes arrivé à votre destination."],
-        "1": ["Vous êtes arrivé à 3206 Powelton Avenue."],
+        "1": ["Vous êtes arrivé à rue des sablons."],
         "2": ["Votre destination est sur la gauche.", "Votre destination est sur la droite."],
-        "3": ["Lancaster Brewing Company est sur la gauche."]
+        "3": ["La société Proowess est sur la gauche."]
       }
     },
     "destination_verbal_alert": {
@@ -92,9 +92,9 @@
       "relative_directions": ["gauche", "droite"],
       "example_phrases": {
         "0": ["Vous arriverez à votre destination."],
-        "1": ["Vous arriverez à 32 o6 Powelton Avenue."],
+        "1": ["Vous arriverez à 26 rue des sablons."],
         "2": ["Votre destination sera sur la gauche.", "Votre destination sera sur la droite."],
-        "3": ["Lancaster Brewing Company sera sur la gauche."]
+        "3": ["La société Proowess sera sur la gauche."]
       }
     },
     "destination_verbal": {
@@ -107,9 +107,9 @@
       "relative_directions": ["gauche", "droite"],
       "example_phrases": {
         "0": ["Vous êtes arrivé à votre destination."],
-        "1": ["Vous êtes arrivé à 32 o6 Powelton Avenue."],
+        "1": ["Vous êtes arrivé à 26 rue des sablons."],
         "2": ["Votre destination est sur la gauche.", "Votre destination est sur la droite."],
-        "3": ["Lancaster Brewing Company est sur la gauche."]
+        "3": ["La société Proowess est sur la gauche."]
       }
     },
     "becomes": {
@@ -136,7 +136,7 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Continuez."],
-        "1": ["Continuez sur 10th Avenue."]
+        "1": ["Continuez sur rue des sablons."]
       }
     },
     "continue_verbal_alert": {
@@ -147,7 +147,7 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Continuez."],
-        "1": ["Continuez sur 10th Avenue."]
+        "1": ["Continuez sur rue des sablons."]
       }
     },
     "continue_verbal": {
@@ -159,8 +159,8 @@
       "metric_lengths": ["<KILOMETERS> kilomètres", "1 kilometre", "un demi kilometre", "<METERS> mètres", "moins de 10 mètres"],
       "us_customary_lengths": ["<MILES> miles", "1 mile", "un demi mile", "<TENTHS_OF_MILE> dixièmes de mile", "1 dixième de mile", "<FEET> pieds", "moins de 10 pieds"],
       "example_phrases": {
-        "0": ["Continuez pendant 300 pieds."],
-        "1": ["Continuez sur 10th Avenue pendant 3 dixièmes de mile."]
+        "0": ["Continuez pendant 300 mètres."],
+        "1": ["Continuez sur rue des sablons pendant 300 mètres."]
       }
     },
     "bear": {
@@ -174,9 +174,9 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Serrez à droite."],
-        "1": ["Serrez à gauche dans Arlen Road."],
-        "2": ["Serrez à droite dans Belair Road/US 1 Business. Continuez sur US 1 Business."],
-        "3": ["Serrez à gauche pour rester sur US 15 South."]
+        "1": ["Serrez à gauche dans Rue des Sablons."],
+        "2": ["Serrez à droite dans Route de Saint-Leu N 328. Continuez sur N 328."],
+        "3": ["Serrez à gauche pour rester sur N 328."]
       }
     },
     "bear_verbal": {
@@ -190,9 +190,9 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Serrez à droite."],
-        "1": ["Serrez à gauche dans Arlen Road."],
-        "2": ["Serrez à droite dans Belair Road, U.S. 1 Business."],
-        "3": ["Serrez à gauche pour rester sur U.S. 15 South."]
+        "1": ["Serrez à gauche dans Rue des Sablons."],
+        "2": ["Serrez à droite dans Route de Saint-Leu, N 328."],
+        "3": ["Serrez à gauche pour rester sur N 328."]
       }
     },
     "turn": {
@@ -206,9 +206,9 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Tournez à gauche."],
-        "1": ["Tournez à droite dans Flatbush Avenue."],
-        "2": ["Tournez à gauche dans North Bond Street/US 1 Business/MD 924. Continuez sur MD 924."],
-        "3": ["Tournez à droite pour rester sur Sunstone Drive."]
+        "1": ["Tournez à droite dans Rue des Sablons."],
+        "2": ["Tournez à gauche dans Route de Saint-Leu/N 328. Continuez sur N 328."],
+        "3": ["Tournez à droite pour rester sur Rue des Sablons."]
       }
     },
     "turn_verbal": {
@@ -222,9 +222,9 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Tournez à gauche."],
-        "1": ["Tournez à droite dans Flatbush Avenue."],
-        "2": ["Tournez à gauche dans North Bond Street, U.S. 1 Business."],
-        "3": ["Tournez à droite pour rester sur Sunstone Drive."]
+        "1": ["Tournez à droite dans Rue des Sablons."],
+        "2": ["Tournez à gauche dans Route de Saint-Leu, N 328."],
+        "3": ["Tournez à droite pour rester sur Rue des Sablons."]
       }
     },
     "sharp": {
@@ -238,9 +238,9 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Tournez à tout de suite à gauche."],
-        "1": ["Tournez à tout de suite à droite dans Flatbush Avenue."],
-        "2": ["Tournez à tout de suite à gauche dans North Bond Street/US 1 Business/MD 924. Continuez sur MD 924."],
-        "3": ["Tournez à tout de suite à droite pour rester sur Sunstone Drive."]
+        "1": ["Tournez à tout de suite à droite dans Rue des Sablons."],
+        "2": ["Tournez à tout de suite à gauche dans Route de Saint-Leu/N 328. Continuez sur N 328."],
+        "3": ["Tournez à tout de suite à droite pour rester sur Rue des Sablons."]
       }
     },
     "sharp_verbal": {
@@ -254,9 +254,9 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Tournez à tout de suite à gauche."],
-        "1": ["Tournez à tout de suite à droite dans Flatbush Avenue."],
-        "2": ["Tournez à tout de suite à gauche dans North Bond Street, U.S. 1 Business."],
-        "3": ["Tournez à tout de suite à droite pour rester sur Sunstone Drive."]
+        "1": ["Tournez à tout de suite à droite dans Rue des Sablons."],
+        "2": ["Tournez à tout de suite à gauche dans Route de Saint-Leu/N 328."],
+        "3": ["Tournez à tout de suite à droite pour rester sur Rue des Sablons."]
       }
     },
     "uturn": {
@@ -272,11 +272,11 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Faites un demi-tour à gauche un demi-tour."],
-        "1": ["Faites un demi-tour à droite dans Bunker Hill Road."],
-        "2": ["Faites un demi-tour à gauche pour rester sur Bunker Hill Road."],
-        "3": ["Faites un demi-tour à gauche à Devonshire Road."],
-        "4": ["Faites un demi-tour à gauche à Devonshire Road dans Jonestown Road/US 22."],
-        "5": ["Faites un demi-tour à gauche à Devonshire Road pour rester sur Jonestown Road/US 22."]
+        "1": ["Faites un demi-tour à droite dans Rue des Sablons."],
+        "2": ["Faites un demi-tour à gauche pour rester sur Rue des Sablons."],
+        "3": ["Faites un demi-tour à gauche à Rue des Sablons."],
+        "4": ["Faites un demi-tour à gauche à Route de Saint-Leu/N 328."],
+        "5": ["Faites un demi-tour à gauche à Rue des Sablons pour rester sur Route de Saint-Leu/N 328."]
       }
     },
     "uturn_verbal": {
@@ -292,11 +292,11 @@
       "empty_street_name_labels": ["l'allée", "la piste cyclable", "la piste de vélo de montagne"],
       "example_phrases": {
         "0": ["Faites un demi-tour à gauche un demi-tour."],
-        "1": ["Faites un demi-tour à droite dans Bunker Hill Road."],
-        "2": ["Faites un demi-tour à gauche pour rester sur Bunker Hill Road."],
-        "3": ["Faites un demi-tour à gauche à Devonshire Road."],
-        "4": ["Faites un demi-tour à gauche à Devonshire Road dans Jonestown Road, U.S. 22."],
-        "5": ["Faites un demi-tour à gauche à Devonshire Road pour rester sur Jonestown Road, U.S. 22."]
+        "1": ["Faites un demi-tour à droite dans Rue des Sablons."],
+        "2": ["Faites un demi-tour à gauche pour rester sur Rue des Sablons."],
+        "3": ["Faites un demi-tour à gauche à Rue des Sablons."],
+        "4": ["Faites un demi-tour à gauche à Rue des Sablons dans Route de Saint-Leu, N 328."],
+        "5": ["Faites un demi-tour à gauche à Rue des Sablons pour rester sur Route de Saint-Leu, N 328."]
       }
     },
     "ramp_straight": {
@@ -309,10 +309,10 @@
       },
       "example_phrases": {
         "0": ["Continuez tout droit pour prendre la bretelle."],
-        "1": ["Continuez tout droit pour prendre la bretelle US 322 East."],
-        "2": ["Continuez tout droit pour prendre la bretelle vers Hershey."],
-        "3": ["Continuez tout droit pour prendre la bretelle US 322 East/US 422 East/US 522 East/US 622 East vers Hershey/Palmdale/Palmyra/Campbelltown."],
-        "4": ["Continuez tout droit pour prendre la bretelle Gettysburg Pike."]
+        "1": ["Continuez tout droit pour prendre la bretelle A 15."],
+        "2": ["Continuez tout droit pour prendre la bretelle vers Montmagny."],
+        "3": ["Continuez tout droit pour prendre la bretelle A 15/N 315/A 86 vers Montmagny/Cergy/Paris."],
+        "4": ["Continuez tout droit pour prendre la bretelle Montmagny."]
       }
     },
     "ramp_straight_verbal": {
@@ -325,10 +325,10 @@
       },
       "example_phrases": {
         "0": ["Continuez tout droit pour prendre la bretelle."],
-        "1": ["Continuez tout droit pour prendre la bretelle US 322 East."],
-        "2": ["Continuez tout droit pour prendre la bretelle vers Hershey."],
-        "3": ["Continuez tout droit pour prendre la bretelle US 322 East/US 422 East/US 522 East/US 622 East vers Hershey/Palmdale/Palmyra/Campbelltown."],
-        "4": ["Continuez tout droit pour prendre la bretelle Gettysburg Pike."]
+        "1": ["Continuez tout droit pour prendre la bretelle A 15 East."],
+        "2": ["Continuez tout droit pour prendre la bretelle vers Montmagny."],
+        "3": ["Continuez tout droit pour prendre la bretelle A 15/N 315/A 86 vers Montmagny/Cergy/Paris."],
+        "4": ["Continuez tout droit pour prendre la bretelle Montmagny."]
       }
     },
     "ramp": {
@@ -347,15 +347,15 @@
       "relative_directions": ["gauche", "droite"],
       "example_phrases": {
         "0": ["Prenez la bretelle sur la gauche.", "Prenez la bretelle sur la droite."],
-        "1": ["Prenez la bretelle I 95 sur la droite."],
-        "2": ["Prenez la bretelle sur la gauche vers JFK."],
-        "3": ["Prenez la bretelle South Conduit Avenue sur la gauche vers JFK."],
-        "4": ["Prenez la bretelle Gettysburg Pike sur la droite."],
+        "1": ["Prenez la bretelle A 15 sur la droite."],
+        "2": ["Prenez la bretelle sur la gauche vers Montmagny."],
+        "3": ["Prenez la bretelle Rue des Sablons sur la gauche vers Montmagny."],
+        "4": ["Prenez la bretelle Montmagny sur la droite."],
         "5": ["Tournez à gauche pour prendre la bretelle.", "Tournez à droite pour prendre la bretelle."],
-        "6": ["Tournez à gauche pour prendre la bretelle PA 283 West."],
-        "7": ["Tournez à gauche pour prendre la bretelle vers Harrisburg/Harrisburg International Airport."],
-        "8": ["Tournez à gauche pour prendre la bretelle PA 283 West vers Harrisburg/Harrisburg International Airport."],
-        "9": ["Tournez à droite pour prendre la bretelle Gettysburg Pike."]
+        "6": ["Tournez à gauche pour prendre la bretelle A 15."],
+        "7": ["Tournez à gauche pour prendre la bretelle vers Montmagny/Cergy/Paris/CDG."],
+        "8": ["Tournez à gauche pour prendre la bretelle A 86 vers Montmagny/Cergy/Paris/CDG."],
+        "9": ["Tournez à droite pour prendre la bretelle Montmagny."]
       }
     },
     "ramp_verbal": {
@@ -374,15 +374,15 @@
       "relative_directions": ["gauche", "droite"],
       "example_phrases": {
         "0": ["Prenez la bretelle sur la gauche.", "Prenez la bretelle sur la droite."],
-        "1": ["Prenez la bretelle Interstate 95 sur la droite."],
-        "2": ["Prenez la bretelle sur la gauche vers JFK."],
-        "3": ["Prenez la bretelle South Conduit Avenue sur la gauche vers JFK."],
-        "4": ["Prenez la bretelle Gettysburg Pike sur la droite."],
+        "1": ["Prenez la bretelle A 15 sur la droite."],
+        "2": ["Prenez la bretelle sur la gauche vers CDG."],
+        "3": ["Prenez la bretelle A 15 sur la gauche vers Montmagny."],
+        "4": ["Prenez la bretelle Montmagny sur la droite."],
         "5": ["Tournez à gauche pour prendre la bretelle.", "Tournez à droite pour prendre la bretelle."],
-        "6": ["Tournez à gauche pour prendre la bretelle Pennsylvania 2 83 West."],
-        "7": ["Tournez à gauche pour prendre la bretelle vers Harrisburg/Harrisburg International Airport."],
-        "8": ["Tournez à gauche pour prendre la bretelle Pennsylvania 2 83 West vers Harrisburg, Harrisburg International Airport."],
-        "9": ["Tournez à droite pour prendre la bretelle Gettysburg Pike."]
+        "6": ["Tournez à gauche pour prendre la bretelle Paris Est."],
+        "7": ["Tournez à gauche pour prendre la bretelle vers Montmagny/Cergy/Paris/CDG."],
+        "8": ["Tournez à gauche pour prendre la bretelle Montmagny vers Montmagny, Cergy, Paris, CDG."],
+        "9": ["Tournez à droite pour prendre la bretelle Montmagny."]
       }
     },
     "exit": {
@@ -403,17 +403,17 @@
       "relative_directions": ["gauche", "droite"],
       "example_phrases": {
         "0": ["Prenez la sortie sur la gauche.", "Prenez la sortie sur la droite."],
-        "1": ["Prenez la sortie 67 B-A sur la droite."],
-        "2": ["Prenez la sortie US 322 West sur la droite."],
-        "3": ["Prenez la sortie 67 B-A sur la droite dans US 322 West."],
-        "4": ["Prenez la sortie sur la droite vers Lewistown."],
-        "5": ["Prenez la sortie 67 B-A sur la droite vers Lewistown."],
-        "6": ["Prenez la sortie US 322 West sur la droite vers Lewistown."],
-        "7": ["Prenez la sortie 67 B-A sur la droite dans US 322 West vers Lewistown/State College."],
+        "1": ["Prenez la sortie 3b sur la droite."],
+        "2": ["Prenez la sortie Paris Est sur la droite."],
+        "3": ["Prenez la sortie 3b sur la droite dans Rue des Sablons."],
+        "4": ["Prenez la sortie sur la droite vers Montmagny."],
+        "5": ["Prenez la sortie 3b sur la droite vers Montmagny."],
+        "6": ["Prenez la sortie Paris Est sur la droite vers Montmagny."],
+        "7": ["Prenez la sortie 3b sur la droite dans Rue des Sablons vers Montmagny/ASSET."],
         "8": ["Prenez la sortie White Marsh Boulevard sur la gauche."],
-        "10": ["Prenez la sortie White Marsh Boulevard sur la gauche dans MD 43 East."],
-        "12": ["Prenez la sortie White Marsh Boulevard sur la gauche vers White Marsh."],
-        "14": ["Prenez la sortie White Marsh Boulevard sur la gauche dans MD 43 East vers White Marsh."]
+        "10": ["Prenez la sortie Rue des Sablons sur la gauche dans Montmagny."],
+        "12": ["Prenez la sortie Rue des Sablons sur la gauche vers Montmagny."],
+        "14": ["Prenez la sortie Rue des Sablons sur la gauche dans Montmagny vers Paris."]
       }
     },
     "exit_verbal": {
